@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{155F34C1-2EAE-44B0-935C-879F4EFA62CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{CAE53971-DAB0-49ED-8E18-0E7AAD8ED6FE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{155F34C1-2EAE-44B0-935C-879F4EFA62CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155F34C1-2EAE-44B0-935C-879F4EFA62CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155F34C1-2EAE-44B0-935C-879F4EFA62CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{155F34C1-2EAE-44B0-935C-879F4EFA62CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE53971-DAB0-49ED-8E18-0E7AAD8ED6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE53971-DAB0-49ED-8E18-0E7AAD8ED6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE53971-DAB0-49ED-8E18-0E7AAD8ED6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE53971-DAB0-49ED-8E18-0E7AAD8ED6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
