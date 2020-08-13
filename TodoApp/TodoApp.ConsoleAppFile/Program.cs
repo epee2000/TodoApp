@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using TodoApp.Models;
 
-namespace TodoApp.ConsoleApp
+namespace TodoApp.ConsoleAppFile
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ITodoRepository _repository = new TodoRepositoryInMemory();
+            ITodoRepository _repository = new TodoRepositoryFile(@"C:\Temp\Todos.txt");
             List<Todo> todos = new List<Todo>();
             todos = _repository.GetAll();
             //[1] 기본 데이터 출력

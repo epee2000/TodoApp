@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TodoApp.Models
+﻿namespace TodoApp.Models
 {
     /// <summary>
     /// 모델 클래스
